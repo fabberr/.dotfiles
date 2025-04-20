@@ -22,11 +22,13 @@ _darcs
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
 
-^/README*
-^/LICENSE*
+^/README.*
+^/LICENSE.*
 ^/COPYING
 
 ###############################################################################
 #                              CUSTOM IGNORE LIST                             #
 ###############################################################################
+
+^/LICENSE*
 
