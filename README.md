@@ -9,13 +9,13 @@ This repository stores my personal configuration files for a number of applicati
 - [Git](https://git-scm.com/)
 - [GNU Stow](https://www.gnu.org/software/stow/)
 
-### Setup on Arch-based (btw) distros
+### Setup on Arch Linux (btw)
 
 ```shell
 sudo pacman -Sy --needed git stow
 ```
 
-### Setup on Debian-based distros
+### Setup on Ubuntu
 
 ```shell
 sudo apt install git stow
