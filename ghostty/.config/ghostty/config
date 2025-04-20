@@ -1,0 +1,85 @@
+################################################################################
+#                                  APPEARANCE                                  #
+################################################################################
+
+# Gruvbox gang 😎
+theme = dark:GruvboxDarkHard,light:GruvboxLight
+
+# Note: background blur on Linux only works on KDE Plasma as of 2025-03.
+background-opacity = 0.85
+background-blur = true
+
+window-height = 35
+window-width = 125
+
+window-decoration = server
+# window-decoration = none
+
+################################################################################
+#                                     FONT                                     #
+################################################################################
+
+font-size = 11
+
+font-family = MesloLGS Nerd Font
+# font-family = Source Code Pro
+
+################################################################################
+#                                   BEHAVIOR                                   #
+################################################################################
+
+mouse-hide-while-typing = true
+
+################################################################################
+#                                   KEYBINDS                                   #
+################################################################################
+
+# Surfaces (Windows / Tabs / Panes)
+keybind = ctrl+n=new_window
+keybind = alt+f4=close_window
+keybind = alt+w=close_surface
+keybind = ctrl+q=quit
+
+keybind = ctrl+t=new_tab
+keybind = ctrl+w=close_tab
+
+keybind = ctrl+shift+enter=new_split:auto
+keybind = ctrl+shift+up=new_split:up
+keybind = ctrl+shift+down=new_split:down
+keybind = ctrl+shift+left=new_split:left
+keybind = ctrl+shift+right=new_split:right
+
+# Navigation
+keybind = performable:ctrl+shift+tab=previous_tab
+keybind = performable:ctrl+tab=next_tab
+
+keybind = performable:alt+up=goto_split:up
+keybind = performable:alt+down=goto_split:down
+keybind = performable:alt+left=goto_split:left
+keybind = performable:alt+right=goto_split:right
+
+keybind = performable:ctrl+alt+left=goto_split:previous
+keybind = performable:ctrl+alt+right=goto_split:next
+
+# Clipboard
+keybind = performable:ctrl+c=copy_to_clipboard
+keybind = performable:ctrl+v=paste_from_selection
+keybind = performable:ctrl+shift+c=copy_url_to_clipboard
+
+# Other
+
+keybind = ctrl+shift+r=reload_config
+
+keybind = alt+enter=toggle_fullscreen
+
+# Doesn't quite work as expected, so keeping it disabled for now.
+# I have `window-decoration` set to `server` and when I use this keybind I'd expect it to switch between `server` (my config) and `none` but instead, it switches between `client` and `none`.
+# This causes the Window Decorations for the Ghostty GUI to show inconsistent styling from the rest of my system when toggling them on.
+# keybind = ctrl+alt+enter=toggle_window_decorations
+
+# From the docs:
+#   >Note
+#   >The `global:` prefix is only available on macOS.
+# 🙃
+# keybind = global:super+apostrophe=toggle_quick_terminal
+
