@@ -10,7 +10,7 @@ alias 'll'='eza --long'
 alias 'la'='eza --all'
 alias 'lla'='eza --long --all'
 
-alias 'tree'='eza --tree'
+alias 'tree'='eza --tree --ignore-glob=.git'
 alias 't'='tree'
 alias 'lt'='tree --long'
 alias 'tl'='tree --long'
