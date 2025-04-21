@@ -42,9 +42,9 @@ cd .dotfiles/
 stow <pkgname>
 ```
 
-## Packages
+# Packages
 
-## Cheat Sheet
+# Cheat Sheet
 
 Adding a new package:
 
@@ -57,5 +57,5 @@ mv <configroot> <pgkname>
 stow <pkgname>
 ```
 
-## TODO
+# TODO
 - [ ] Setup shell script
