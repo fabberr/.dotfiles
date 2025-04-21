@@ -1,0 +1,27 @@
+[init]
+    defaultBranch = master
+
+[user]
+    name = Fabrício Milanez
+    email = fabriciomilanez@protonmail.com
+    signingkey = DF0D3920A4617FA1
+
+[core]
+    editor = /usr/bin/nvim
+    pager = delta
+
+[commit]
+    gpgsign = true
+
+[pull]
+    rebase = true
+
+[merge]
+    conflictstyle = zdiff3
+
+[interactive]
+    diffFilter = delta --color-only
+
+[include]
+    path = ~/.config/delta/delta.gitconfig # delta config
+
