@@ -101,14 +101,20 @@ _fzf_comprun() {
 }
 
 ################################################################################
+#            bash-preexec [https://github.com/rcaloras/bash-preexec]           #
+################################################################################
+
+# Enable experimental subshell support
+export __bp_enable_subshells="true"
+
+[[ -f ~/.bash-preexec.sh ]] && source "$HOME/.bash-preexec.sh"
+
+################################################################################
 #                           Atuin [https://atuin.sh]                           #
 ################################################################################
 
-# Environment Variables
-source "$HOME/.atuin/bin/env"
+export ATUIN_CONFIG_DIR="$HOME/.config/atuin"
 
-# Shell Integration
-[[ -f ~/.bash-preexec.sh ]] && source "$HOME/.bash-preexec.sh"
 eval "$(atuin init --disable-up-arrow bash)"
 
 ################################################################################
