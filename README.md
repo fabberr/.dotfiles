@@ -91,3 +91,4 @@ mv <configroot> <pgkname>
 
 # TODO
 - [ ] Setup shell script
+- [ ] Add `bash-preexec` as a Git Submodule. Setup a Local Ignore List for it.
