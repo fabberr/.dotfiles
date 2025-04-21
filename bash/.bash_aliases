@@ -54,6 +54,7 @@ alias 'clesr'='clear'
 alias 'clea'='clear'
 alias 'clwear'='clear'
 alias 'clar'='clear'
+alias 'xlear'='clear'
 
 # Games
 
@@ -73,11 +74,6 @@ alias 'code'='codium'
 alias 'sqlite'='sqlite3'
 
 alias 'setenv'='source /home/fab/Code/tools/setenv.sh'
-
-# Scripts
-
-alias 'init-dualsense'='/home/fab/Code/tools/init-dualsense.sh'
-alias 'aoc2024'='/home/fab/Code/tools/aoc2024.sh'
 
 # Uncatagorized
 
