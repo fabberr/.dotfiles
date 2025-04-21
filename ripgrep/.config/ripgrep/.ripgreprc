@@ -1,0 +1,51 @@
+################################################################################
+#                                SEARCH OPTIONS                                #
+################################################################################
+
+# -j NUM, --threads=NUM
+--threads=4
+
+# --engine=ENGINE
+--engine=auto
+
+# -S, --smart-case
+--smart-case
+
+################################################################################
+#                                FILTER OPTIONS                                #
+################################################################################
+
+# --binary
+# --binary
+
+# -L, --follow
+# --follow
+
+# -., --hidden
+--hidden
+
+# --ignore-file=PATH
+--ignore-file=/home/fab/.config/ripgrep/.rgignore
+
+################################################################################
+#                                OUTPUT OPTIONS                                #
+################################################################################
+
+# -A NUM, --after-context=NUM
+# --after-context=1
+
+# -B NUM, --before-context=NUM
+# --before-context=1
+
+# -C NUM, --context=NUM
+--context=1
+
+# --color=WHEN
+--color=auto
+
+# --heading
+--heading
+
+# -n, --line-number
+--line-number
+
