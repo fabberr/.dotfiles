@@ -78,5 +78,7 @@ eval "$(starship init bash)"
 #                Zoxide [https://github.com/ajeetdsouza/zoxide]                #
 ################################################################################
 
+_ZO_RESOLVE_SYMLINKS="1"
+
 eval "$(zoxide init bash)"
 
