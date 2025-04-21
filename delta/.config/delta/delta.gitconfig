@@ -1,0 +1,15 @@
+[delta]
+    features = default style-default-dark style-gruvbox-dark
+
+[delta "default"]
+    navigate = true
+    line-numbers = true
+    tabs = 4
+
+[delta "style-default-dark"]
+    true-color = auto
+    dark = true
+
+[delta "style-gruvbox-dark"]
+    syntax-theme = gruvbox-dark
+
