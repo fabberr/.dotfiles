@@ -25,3 +25,5 @@
 [include]
     path = ~/.config/delta/delta.gitconfig # delta config
 
+[advice]
+	addEmptyPathspec = false
