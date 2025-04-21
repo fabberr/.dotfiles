@@ -70,9 +70,9 @@ eval "$(atuin init --disable-up-arrow bash)"
 #                        Starship [https://starship.rs]                        #
 ################################################################################
 
-eval "$(starship init bash)"
-
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+
+eval "$(starship init bash)"
 
 ################################################################################
 #                Zoxide [https://github.com/ajeetdsouza/zoxide]                #
