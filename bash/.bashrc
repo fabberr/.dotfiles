@@ -5,8 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PS1='[\u@\h \W]\$ '
-
 # Aliases
 source "$HOME/.bash_aliases"
 
@@ -14,7 +12,7 @@ source "$HOME/.bash_aliases"
 export GPG_TTY="$(tty)"
 
 # OpenSSL
-export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:/usr/lib/ssl/certs:/etc/ssl/certs"
+export SSL_CERT_DIR="/usr/lib/ssl/certs:/etc/ssl/certs"
 
 ################################################################################
 #                      .NET [https://dotnet.microsoft.com]                     #
@@ -24,6 +22,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT="1"
 export DOTNET_ROOT="/usr/share/dotnet"
 export DOTNET_TOOLS_PATH="$DOTNET_ROOT/tools"
 export PATH="$PATH:$DOTNET_ROOT:$DOTNET_TOOLS_PATH"
+export SSL_CERT_DIR="$SSL_CERT_DIR:$HOME/.aspnet/dev-certs/trust"
 
 ################################################################################
 #                ripgrep [https://github.com/BurntSushi/ripgrep]               #
