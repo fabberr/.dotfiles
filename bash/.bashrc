@@ -31,6 +31,12 @@ export SSL_CERT_DIR="$SSL_CERT_DIR:$HOME/.aspnet/dev-certs/trust"
 export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
 
 ################################################################################
+#                     bat [https://github.com/sharkdp/bat]                     #
+################################################################################
+
+export BAT_CONFIG_PATH="$HOME/.config/bat/config"
+
+################################################################################
 #                       Yazi [https://yazi-rs.github.io]                       #
 ################################################################################
 
