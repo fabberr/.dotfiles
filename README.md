@@ -22,7 +22,7 @@ sudo apt install git stow
 
 # Installing Configuration Packages
 
-This repo is meant to be placed within your home directory for ease of use.
+First, clone this repository locally on your machine using Git. This repo is meant to be cloned within your home directory for ease of use.
 
 ```shell
 cd $HOME
@@ -34,7 +34,7 @@ git clone git@github.com:fabberr/.dotfiles.git
 git clone https://github.com/fabberr/.dotfiles.git
 ```
 
-Once cloned, navigate to the repo and use the `stow` command for setting up the appropriate symlinks for the given [package](https://www.gnu.org/software/stow/manual/stow.html#Terminology). For a list of available packages, see **[# Packages](#packages)** below.
+Once cloned, navigate to the repo and use Stow for setting up the appropriate symlinks for the given [package](https://www.gnu.org/software/stow/manual/stow.html#Terminology). For a list of available packages, see **[# Packages](#packages)** below.
 
 ```shell
 cd .dotfiles/
