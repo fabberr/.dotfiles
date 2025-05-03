@@ -28,6 +28,7 @@
 
 [interactive]
     diffFilter = delta --color-only
+    singleKey = true
 
 [include]
     path = ~/.config/delta/delta.gitconfig # delta config
