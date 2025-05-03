@@ -12,6 +12,11 @@
 [init]
     defaultBranch = master
 
+[status]
+    branch = true
+    showStash = true
+    showUntrackedFiles = true
+
 [commit]
     gpgsign = true
 
