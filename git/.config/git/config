@@ -20,8 +20,18 @@
 [commit]
     gpgsign = true
 
+[push]
+    default = current
+    autoSetupRemote = true
+    followTags = true
+
 [pull]
+    default = current
     rebase = true
+
+[rebase]
+    autoStash = true
+    missingCommitsCheck = warn
 
 [merge]
     conflictstyle = zdiff3
