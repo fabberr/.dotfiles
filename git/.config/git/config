@@ -43,6 +43,12 @@
 [log]
     abbrevCommit = true
 
+[branch]
+    sort = -committerdate
+
+[tag]
+    sort =taggerdate
+
 [include]
     path = ~/.config/delta/delta.gitconfig # delta config
 
