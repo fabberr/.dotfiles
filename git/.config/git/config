@@ -40,6 +40,9 @@
     diffFilter = delta --color-only
     singleKey = true
 
+[log]
+    abbrevCommit = true
+
 [include]
     path = ~/.config/delta/delta.gitconfig # delta config
 
