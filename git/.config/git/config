@@ -9,6 +9,8 @@
 [core]
     editor = /usr/bin/nvim
     pager = delta
+    compression = 9
+    preloadIndex = true
 
 [commit]
     gpgsign = true
