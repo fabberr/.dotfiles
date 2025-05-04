@@ -31,11 +31,11 @@ alias 'rm'='rm --interactive'
 
 # Navigation
 
-alias '..'='cd ../'
-alias '...'='cd ../../'
-alias '....'='cd ../../../'
-alias '.....'='cd ../../../../'
-alias '......'='cd ../../../../../'
+alias '..'='z ../'
+alias '...'='z ../../'
+alias '....'='z ../../../'
+alias '.....'='z ../../../../'
+alias '......'='z ../../../../../'
 
 # Aliases for `clear` because I am retarded
 
