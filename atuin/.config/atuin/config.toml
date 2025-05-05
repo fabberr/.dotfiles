@@ -125,6 +125,7 @@ history_filter = [
     'clar',
     'xlear',
     'cleat',
+    'clrea',
     'setenv',
 ]
 

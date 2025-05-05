@@ -56,6 +56,7 @@ alias 'clwear'='clear'
 alias 'clar'='clear'
 alias 'xlear'='clear'
 alias 'cleat'='clear'
+alias 'clrea'='clear'
 
 # Games
 
