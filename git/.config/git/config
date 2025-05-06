@@ -24,10 +24,17 @@
     default = current
     autoSetupRemote = true
     followTags = true
+    recurseSubmodules = on-demand
+
+[fetch]
+    recurseSubmodules = on-demand
 
 [pull]
     default = current
     rebase = true
+
+[submodule]
+    recurse = true
 
 [rebase]
     autoStash = true
