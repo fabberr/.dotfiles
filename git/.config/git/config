@@ -54,7 +54,7 @@
     sort = -committerdate
 
 [tag]
-    sort =taggerdate
+    sort = -taggerdate
 
 [include]
     path = ~/.config/delta/delta.gitconfig # delta config
