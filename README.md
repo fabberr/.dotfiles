@@ -85,13 +85,16 @@ The following commands assume that:
 These commands will create a new Stow package named `<pkgname>` from an existing configuration present in the `<configroot>` directory.
 
 ```shell
-# Create a new package
+# Create the package directory.
 mkdir <pkgname>
 
-# Optional: Add any required subdirectories, typically `.config/<pkgname>` or `.local/share/<pkgname>` (i.e. `.config/ghostty`)
+# Optional:
+# Add any required subdirectories, typically `.config/<pkgname>`
+# or `.local/share/<pkgname>` (i.e. `.config/ghostty`).
 mkdir -p <pkgname>/additional/nested/directories
 
-# Optional: Move any existing configuration directories/files into the enw package
+# Optional:
+# Move any existing configuration directories/files into the new package
 mv <configroot> <pgkname>
 ```
 
