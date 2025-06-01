@@ -1,6 +1,6 @@
 # .dotfiles
 
-This repository stores my personal configuration files for GNU/Linux applications and tools that I use, and it's meant to be used alongside [GNU Stow](https://www.gnu.org/software/stow/) for ease of reproducibility.
+This repository stores my personal configuration files for applications and tools that I use, and it's meant to be used alongside [GNU Stow](https://www.gnu.org/software/stow/) for ease of reproducibility.
 
 ## Dependencies
 
@@ -20,6 +20,10 @@ sudo pacman -Sy --needed git stow
 ```shell
 sudo apt update && sudo apt install git stow
 ```
+
+### Other Distributions/Operating Systems
+
+Check the official package repositories.
 
 ## Setup
 
