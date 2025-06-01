@@ -2,26 +2,26 @@
 
 This repository stores my personal configuration files for a number of applications/tools and is meant to be used alongside [GNU Stow](https://www.gnu.org/software/stow/) for ease of reproducibility.
 
-# Dependencies
+## Dependencies
 
-Make sure the following tools are installed on your system:
+Make sure the following tools are installed on your system and available for your user:
 
 - [Git](https://git-scm.com/)
 - [GNU Stow](https://www.gnu.org/software/stow/)
 
-## Setup on Arch Linux (btw)
+### Setup on Arch Linux (btw)
 
 ```shell
 sudo pacman -Sy --needed git stow
 ```
 
-## Setup on Ubuntu
+### Setup on Ubuntu
 
 ```shell
 sudo apt update && sudo apt install git stow
 ```
 
-# Installing Configuration Packages
+## Installing Configuration Packages
 
 First, clone this repository locally on your machine using Git. The repo is meant to be cloned within your home directory for ease of use.
 
@@ -35,23 +35,21 @@ git clone git@github.com:fabberr/.dotfiles.git
 git clone https://github.com/fabberr/.dotfiles.git
 ```
 
-Once cloned, you can navigate to the repo and start using Stow to install configuration [packages](https://www.gnu.org/software/stow/manual/stow.html#Terminology). For a full list of available package names, see **[# Packages](#packages)** below.
+Once cloned, you can navigate into the repo and start using Stow to install configuration [packages](https://www.gnu.org/software/stow/manual/stow.html#Terminology). For a full list of packages available on this repo, see the **[Available Packages](##available-packages)** section below.
 
 ⚠️ **Always ensure the `stow` package is the first to be installed on fresh installs** to avoid issues with unwanted files being symlinked to the target directory when the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists) is not present while stowing other packages.
 
 ```shell
-cd .dotfiles/
-
 stow <pkgname>
 ```
 
-To uninstall a package run the following command:
+To uninstall a package run the following command (from within the repo):
 
 ```shell
 stow -D <pkgname>
 ```
 
-# Packages
+## Available Packages
 
 The following packages are available. For details on each package, check their corresponding `README.md` file.
 
@@ -70,7 +68,7 @@ The following packages are available. For details on each package, check their c
 - [stow](https://github.com/fabberr/.dotfiles/tree/master/stow)
 - [yazi](https://github.com/fabberr/.dotfiles/tree/master/yazi)
 
-# Cheat Sheet
+## Stow Cheat Sheet
 
 Adding a new package:
 
@@ -81,7 +79,7 @@ mkdir -p <pkgname>/additional/nested/directories
 mv <configroot> <pgkname>
 ```
 
-# References
+## Reference Material
 
 [Stow has forever changed the way I manage my dotfiles](https://youtu.be/y6XCebnB9gs) by Dreams of Autonomy.
 
@@ -89,6 +87,6 @@ mv <configroot> <pgkname>
 
 [GNU Stow manual](https://www.gnu.org/software/stow/manual/) by the Free Software Foundation.
 
-# TODO
+## TODO
 - [ ] Setup shell script
 - [ ] Add `bash-preexec` as a Git Submodule. Setup a Local Ignore List for it.
