@@ -35,7 +35,7 @@ git clone git@github.com:fabberr/.dotfiles.git
 git clone https://github.com/fabberr/.dotfiles.git
 ```
 
-Once cloned, you can navigate into the repo and start using Stow to install configuration [packages](https://www.gnu.org/software/stow/manual/stow.html#Terminology). For a full list of packages available on this repo, see the **[Available Packages](##available-packages)** section below.
+Once cloned, you can navigate into the repo and start using Stow to install configuration [packages](https://www.gnu.org/software/stow/manual/stow.html#Terminology). For a full list of packages available on this repo, see the **[Available Packages](#available-packages)** section below.
 
 ⚠️ **Always ensure the `stow` package is the first to be installed on fresh installs** to avoid issues with unwanted files being symlinked to the target directory when the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists) is not present while stowing other packages.
 
