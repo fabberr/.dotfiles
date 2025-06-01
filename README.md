@@ -1,6 +1,6 @@
 # .dotfiles
 
-This repository stores my personal configuration files for a number of applications/tools and is meant to be used alongside [GNU Stow](https://www.gnu.org/software/stow/) for ease of reproducibility.
+This repository stores my personal configuration files for GNU/Linux applications and tools that I use, and it's meant to be used alongside [GNU Stow](https://www.gnu.org/software/stow/) for ease of reproducibility.
 
 ## Dependencies
 
