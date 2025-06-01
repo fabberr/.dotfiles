@@ -9,19 +9,19 @@ Make sure the following tools are installed on your system and available for you
 - [Git](https://git-scm.com/)
 - [GNU Stow](https://www.gnu.org/software/stow/)
 
-### Installing on Arch Linux (btw)
+### On Arch Linux (btw)
 
 ```shell
 sudo pacman -Sy --needed git stow
 ```
 
-### Installing on Ubuntu
+### On Ubuntu
 
 ```shell
 sudo apt update && sudo apt install git stow
 ```
 
-### Installing on Other distributions/Operating Systems
+### On Other distributions/Operating Systems
 
 Check the official package repositories for installation instructions.
 
