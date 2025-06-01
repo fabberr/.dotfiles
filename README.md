@@ -41,10 +41,11 @@ Once cloned, you can navigate into the repo and start using Stow to install conf
 cd $HOME/.dotfiles
 ```
 
-⚠️ **Always ensure the `stow` package is the first to be stowed on fresh installs** to avoid issues with unwanted files being symlinked to the target directory when the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists) is not present while stowing other packages.
+⚠️ **Always ensure the [`stow`](https://github.com/fabberr/.dotfiles/tree/master/stow) package is the first to be stowed on fresh installs** to avoid issues with unwanted files being symlinked to the target directory when the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists) is not present while stowing other packages. It's also recommended to stow the [`git`](https://github.com/fabberr/.dotfiles/tree/master/git) package next.
 
 ```shell
 stow stow
+stow git
 ```
 
 ## Available Packages
