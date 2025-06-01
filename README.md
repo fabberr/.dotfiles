@@ -125,5 +125,8 @@ stow -D <pkgname>
 [GNU Stow manual](https://www.gnu.org/software/stow/manual/) by the [GNU Project](https://www.gnu.org).
 
 ## TODO
+- [ ] Add `vscode` package
+  - Settings
+  - Extensions (?)
 - [ ] Setup shell script
 - [ ] Add `bash-preexec` as a Git Submodule. Setup a Local Ignore List for it.
