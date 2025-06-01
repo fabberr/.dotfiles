@@ -22,6 +22,8 @@ alias 'fm'='dolphin'
 
 alias 'grep'='grep --color=auto'
 
+alias 'mkdir'='mkdir --verbose'
+
 # Interactive Commands
 
 alias 'cp'='cp --interactive'
