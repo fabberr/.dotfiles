@@ -23,7 +23,7 @@ sudo apt update && sudo apt install git stow
 
 ### Installing on Other distributions/Operating Systems
 
-Check the official package repositories for install instructions.
+Check the official package repositories for installation instructions.
 
 ## Setup
 
