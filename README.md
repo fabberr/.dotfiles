@@ -60,6 +60,7 @@ The following packages are available. For details on each package, check their c
 - [delta](https://github.com/fabberr/.dotfiles/tree/master/delta)
 - [dust](https://github.com/fabberr/.dotfiles/tree/master/dust)
 - [fd](https://github.com/fabberr/.dotfiles/tree/master/fd)
+- [gamemode](https://github.com/fabberr/.dotfiles/tree/master/gamemode)
 - [ghostty](https://github.com/fabberr/.dotfiles/tree/master/ghostty)
 - [git](https://github.com/fabberr/.dotfiles/tree/master/git)
 - [nvim](https://github.com/fabberr/.dotfiles/tree/master/nvim)
