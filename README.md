@@ -9,7 +9,7 @@ Make sure the following tools are installed on your system and available for you
 - [Git](https://git-scm.com/)
 - [GNU Stow](https://www.gnu.org/software/stow/)
 
-### On Arch Linux (btw)
+### On Arch Linux <sup>(btw)</sup>
 
 ```shell
 sudo pacman -Sy --needed git stow
