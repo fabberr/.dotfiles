@@ -18,11 +18,9 @@ export SSL_CERT_DIR="/usr/lib/ssl/certs:/etc/ssl/certs"
 #                      .NET [https://dotnet.microsoft.com]                     #
 ################################################################################
 
-export DOTNET_CLI_TELEMETRY_OPTOUT="1"
-export DOTNET_ROOT="/usr/share/dotnet"
-export DOTNET_TOOLS_PATH="$DOTNET_ROOT/tools"
-export PATH="$PATH:$DOTNET_ROOT:$DOTNET_TOOLS_PATH"
-export SSL_CERT_DIR="$SSL_CERT_DIR:$HOME/.aspnet/dev-certs/trust"
+export DOTNET_CLI_TELEMETRY_OPTOUT="true"
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
 ################################################################################
 #                ripgrep [https://github.com/BurntSushi/ripgrep]               #
