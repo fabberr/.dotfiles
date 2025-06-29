@@ -26,8 +26,7 @@ export PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
 #                           Zig [https://ziglang.org]                          #
 ################################################################################
 
-export ZIG_ROOT="/usr/bin/zig"
-export PATH="$PATH:$ZIG_ROOT"
+export PATH="$PATH:$ZIG_ROOT:/usr/bin/zig:/usr/bin/zls"
 
 ################################################################################
 #                ripgrep [https://github.com/BurntSushi/ripgrep]               #
