@@ -19,8 +19,8 @@ export SSL_CERT_DIR="/usr/lib/ssl/certs:/etc/ssl/certs"
 ################################################################################
 
 export DOTNET_CLI_TELEMETRY_OPTOUT="true"
-export DOTNET_ROOT=$HOME/.dotnet
-export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export DOTNET_ROOT="$HOME/.dotnet"
+export PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
 
 ################################################################################
 #                           Zig [https://ziglang.org]                          #
