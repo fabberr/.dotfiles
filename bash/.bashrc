@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 # Aliases
-source "$HOME/.bash_aliases"
+[[ -f "$HOME/.bash_aliases" ]] && source "$HOME/.bash_aliases"
 
 # GPG key
 export GPG_TTY="$(tty)"
@@ -67,7 +67,7 @@ function y() {
 # Enable experimental subshell support
 export __bp_enable_subshells="true"
 
-[[ -f ~/.bash-preexec.sh ]] && source "$HOME/.bash-preexec.sh"
+[[ -f "$HOME/.bash-preexec.sh" ]] && source "$HOME/.bash-preexec.sh"
 
 ################################################################################
 #                           Atuin [https://atuin.sh]                           #
