@@ -73,8 +73,6 @@ alias 'vim'='nvim'
 alias 'nv'='nvim'
 alias 'v'='nvim'
 
-alias 'code'='codium'
-
 alias 'sqlite'='sqlite3'
 
 alias 'setenv'='source /home/fab/Code/tools/setenv.sh'
