@@ -23,6 +23,7 @@ alias 'fm'='dolphin'
 alias 'grep'='grep --color=auto'
 
 alias 'mkdir'='mkdir --verbose'
+alias 'rmdir'='rmdir --verbose'
 
 # Interactive Commands
 
