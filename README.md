@@ -70,6 +70,7 @@ The following packages are available. For more details, check each package's cor
 - [git](https://github.com/fabberr/.dotfiles/tree/master/git)
 - [nvim](https://github.com/fabberr/.dotfiles/tree/master/nvim)
 - [ripgrep](https://github.com/fabberr/.dotfiles/tree/master/ripgrep)
+- [spotify-player](https://github.com/fabberr/.dotfiles/tree/master/spotify-player)
 - [starship](https://github.com/fabberr/.dotfiles/tree/master/starship)
 - [stow](https://github.com/fabberr/.dotfiles/tree/master/stow)
 - [yazi](https://github.com/fabberr/.dotfiles/tree/master/yazi)
