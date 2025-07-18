@@ -12,7 +12,7 @@
 export GPG_TTY="$(tty)"
 
 # OpenSSL
-export SSL_CERT_DIR="/usr/lib/ssl/certs:/etc/ssl/certs"
+export SSL_CERT_DIR="/etc/ssl/certs"
 
 ################################################################################
 #                      .NET [https://dotnet.microsoft.com]                     #
