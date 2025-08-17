@@ -35,13 +35,13 @@ export PATH="$PATH:$ZIG_ROOT:/usr/bin/zig:/usr/bin/zls"
 #                ripgrep [https://github.com/BurntSushi/ripgrep]               #
 ################################################################################
 
-export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
+export RIPGREP_CONFIG_PATH="$CONFIG_HOME/ripgrep/.ripgreprc"
 
 ################################################################################
 #                     bat [https://github.com/sharkdp/bat]                     #
 ################################################################################
 
-export BAT_CONFIG_PATH="$HOME/.config/bat/config"
+export BAT_CONFIG_PATH="$CONFIG_HOME/bat/config"
 
 ################################################################################
 #            Fastfetch [https://github.com/fastfetch-cli/fastfetch]            #
@@ -61,12 +61,15 @@ export BAT_CONFIG_PATH="$HOME/.config/bat/config"
 #   When invoked through this wrapper, Yazi will change the CWD when exiting.
 #
 function y() {
-    local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-    yazi "$@" --cwd-file="$tmp"
-    if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		builtin cd -- "$cwd"
-	fi
-	rm -f -- "$tmp"
+  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+
+  yazi "$@" --cwd-file="$tmp"
+  
+  if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+    builtin cd -- "$cwd"
+  fi
+
+  rm -f -- "$tmp"
 }
 
 ################################################################################
@@ -82,7 +85,7 @@ export __bp_enable_subshells="true"
 #                           Atuin [https://atuin.sh]                           #
 ################################################################################
 
-export ATUIN_CONFIG_DIR="$HOME/.config/atuin"
+export ATUIN_CONFIG_DIR="$CONFIG_HOME/atuin"
 
 eval "$(atuin init --disable-up-arrow bash)"
 
@@ -90,7 +93,7 @@ eval "$(atuin init --disable-up-arrow bash)"
 #                        Starship [https://starship.rs]                        #
 ################################################################################
 
-export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+export STARSHIP_CONFIG="$CONFIG_HOME/starship/starship.toml"
 
 eval "$(starship init bash)"
 
@@ -101,4 +104,3 @@ eval "$(starship init bash)"
 _ZO_RESOLVE_SYMLINKS="1"
 
 eval "$(zoxide init bash)"
-
