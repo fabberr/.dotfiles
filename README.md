@@ -64,6 +64,7 @@ The following packages are available. For more details, check each package's cor
 - [bat](https://github.com/fabberr/.dotfiles/tree/master/bat)
 - [delta](https://github.com/fabberr/.dotfiles/tree/master/delta)
 - [dust](https://github.com/fabberr/.dotfiles/tree/master/dust)
+- [fastfetch](https://github.com/fabberr/.dotfiles/tree/master/fastfetch)
 - [fd](https://github.com/fabberr/.dotfiles/tree/master/fd)
 - [gamemode](https://github.com/fabberr/.dotfiles/tree/master/gamemode)
 - [ghostty](https://github.com/fabberr/.dotfiles/tree/master/ghostty)
