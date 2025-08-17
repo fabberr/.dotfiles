@@ -14,6 +14,9 @@ export GPG_TTY="$(tty)"
 # OpenSSL
 export SSL_CERT_DIR="/etc/ssl/certs"
 
+# Environment Variables
+export CONFIG_HOME="$HOME/.config"
+
 ################################################################################
 #                      .NET [https://dotnet.microsoft.com]                     #
 ################################################################################
@@ -39,6 +42,13 @@ export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
 ################################################################################
 
 export BAT_CONFIG_PATH="$HOME/.config/bat/config"
+
+################################################################################
+#            Fastfetch [https://github.com/fastfetch-cli/fastfetch]            #
+################################################################################
+
+# Custom logo
+[[ -f "$CONFIG_HOME/fastfetch/logo.sh" ]] && source "$CONFIG_HOME/fastfetch/logo.sh"
 
 ################################################################################
 #                       Yazi [https://yazi-rs.github.io]                       #
