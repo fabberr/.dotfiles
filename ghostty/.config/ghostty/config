@@ -72,14 +72,6 @@ keybind = ctrl+shift+r=reload_config
 
 keybind = alt+enter=toggle_fullscreen
 
-# Doesn't quite work as expected, so keeping it disabled for now.
-# I have `window-decoration` set to `server` and when I use this keybind I'd expect it to switch between `server` (my config) and `none` but instead, it switches between `client` and `none`.
-# This causes the Window Decorations for the Ghostty GUI to show inconsistent styling from the rest of my system when toggling them on.
-# keybind = ctrl+alt+enter=toggle_window_decorations
-
 # From the docs:
-#   >Note
-#   >The `global:` prefix is only available on macOS.
-# 🙃
-# keybind = global:super+apostrophe=toggle_quick_terminal
+keybind = global:super+apostrophe=toggle_quick_terminal
 
