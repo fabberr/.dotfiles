@@ -3,7 +3,7 @@
 ################################################################################
 
 # Gruvbox gang 😎
-theme = dark:GruvboxDarkHard,light:GruvboxLight
+theme = Gruvbox Dark Hard
 
 # Note: background blur on Linux only works on KDE Plasma as of 2025-03.
 background-opacity = 0.85
