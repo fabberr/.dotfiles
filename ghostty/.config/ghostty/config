@@ -4,8 +4,8 @@ config-file = ./keybinds
 #                                  APPEARANCE                                  #
 ################################################################################
 
-# Gruvbox gang 😎
-theme = Gruvbox Dark Hard
+# theme = Gruvbox Dark Hard
+theme = Catppuccin Mocha
 
 # Note: background blur on Linux only works on KDE Plasma as of 2025-03.
 background-opacity = 0.85
