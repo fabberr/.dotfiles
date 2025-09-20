@@ -72,6 +72,5 @@ keybind = ctrl+shift+r=reload_config
 
 keybind = alt+enter=toggle_fullscreen
 
-# From the docs:
 keybind = global:super+apostrophe=toggle_quick_terminal
 
