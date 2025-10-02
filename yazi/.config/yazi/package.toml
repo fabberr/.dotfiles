@@ -3,5 +3,10 @@ deps = []
 
 [[flavor.deps]]
 use = "bennyyip/gruvbox-dark"
-rev = "b4cc9f2"
-hash = "f44c42bcbed3c8564100e45e2fe3649a"
+rev = "e5e1aef"
+hash = "eb88137cf13a796225254344bf6def2c"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-mocha"
+rev = "2d73b79"
+hash = "d4c41d713b325710a9dd5ae86c3f8a5f"
