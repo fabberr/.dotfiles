@@ -57,6 +57,12 @@ export BAT_CONFIG_PATH="$CONFIG_HOME/bat/config"
 [[ -f "$CONFIG_HOME/fastfetch/logo.sh" ]] && source "$CONFIG_HOME/fastfetch/logo.sh"
 
 ################################################################################
+#            MangoHud [https://github.com/flightlessmango/MangoHud]            #
+################################################################################
+
+MANGOHUD="1"
+
+################################################################################
 #                       Yazi [https://yazi-rs.github.io]                       #
 ################################################################################
 
