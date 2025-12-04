@@ -4,15 +4,13 @@ config-file = ./keybinds
 #                                  APPEARANCE                                  #
 ################################################################################
 
-# theme = Gruvbox Dark Hard
 theme = Catppuccin Mocha
 
-# Note: background blur on Linux only works on KDE Plasma as of 2025-03.
 background-opacity = 0.85
 background-blur = true
 
-window-height = 35
-window-width = 125
+# window-height = 35
+# window-width = 125
 
 window-decoration = server
 # window-decoration = none
@@ -38,4 +36,4 @@ mouse-hide-while-typing = true
 
 quick-terminal-position = top
 quick-terminal-size = 50%
-quick-terminal-screen = mouse
+quick-terminal-screen = main
