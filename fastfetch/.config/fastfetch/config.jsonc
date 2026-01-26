@@ -4,7 +4,7 @@
     "brightColor": true,
     "key": {
       "type": "both",
-      "width": 14
+      "width": 16
     },
     "percent": {
       "type": 3, /** 1=number, 2=bar, 3=both, 9=colored number */
@@ -24,6 +24,7 @@
     "source": "$FASTFETCH_LOGO"
   },
   "modules": [
+    /* Title */
     {
       "type": "title"
     },
@@ -31,53 +32,10 @@
       "type": "separator",
       "string": "─"
     },
+    /* Hardware */
     {
       "type": "host",
       "format": "{name}, {vendor}"
-    },
-    {
-      "type": "os",
-      "format": ""
-    },
-    {
-      "type": "kernel",
-      "format": ""
-    },
-    {
-      "type": "shell",
-      "format": ""
-    },
-    {
-      "type": "packages",
-      "format": ""
-    },
-    {
-      "type": "uptime",
-      "format": ""
-    },
-    {
-      "type": "separator",
-      "string": "─"
-    },
-    {
-      "type": "lm",
-      "format": ""
-    },
-    {
-      "type": "de",
-      "format": ""
-    },
-    {
-      "type": "wm",
-      "format": ""
-    },
-    {
-      "type": "terminal",
-      "format": ""
-    },
-    {
-      "type": "separator",
-      "string": "─"
     },
     {
       "type": "cpu",
@@ -92,19 +50,105 @@
       "format": ""
     },
     {
-      "type": "swap",
+      "type": "battery",
+      "key": "Battery",
       "format": ""
     },
     {
       "type": "separator",
       "string": "─"
     },
+    /* System */
+    {
+      "type": "os",
+      "format": ""
+    },
+    {
+      "type": "kernel",
+      "format": ""
+    },
+    {
+      "type": "initsystem",
+      "format": ""
+    },
+    {
+      "type": "shell",
+      "format": ""
+    },
+    {
+      "type": "terminal",
+      "format": ""
+    },
+    {
+      "type": "packages",
+      "format": ""
+    },
+    {
+      "type": "separator",
+      "string": "─"
+    },
+    /* Desktop */
+    {
+      "type": "lm",
+      "format": ""
+    },
+    {
+      "type": "de",
+      "format": ""
+    },
+    {
+      "type": "wm",
+      "format": ""
+    },
+    {
+      "type": "separator",
+      "string": "─"
+    },
+    /* Devices */
+    {
+      "type": "keyboard",
+      "format": "",
+      "ignores": [
+        "AT"
+      ]
+    },
+    {
+      "type": "mouse",
+      "format": "",
+      "ignores": [
+        "PS/2",
+        "DELL",
+        "HP",
+        "DualSense"
+      ]
+    },
+    {
+      "type": "gamepad",
+      "format": "",
+      "ignores": [
+        "DualSense Wireless Controller Motion Sensors"
+      ]
+    },
+    {
+      "type": "display",
+      "key": "Display {index}",
+      "format": "{width}x{height} {inch}\", {refresh-rate} Hz ({name}) [{type}]"
+    },
+    {
+      "type": "separator",
+      "string": "─"
+    },
+    /* Graphics */
+    {
+      "type": "gpu",
+      "format": "{vendor} {name} [{type}]"
+    },
     {
       "type": "vulkan",
       "format": ""
     },
     {
-      "type": "gpu",
+      "type": "opengl",
       "format": ""
     }
   ]
