@@ -100,9 +100,9 @@ export __bp_enable_subshells="true"
 #                           Atuin [https://atuin.sh]                           #
 ################################################################################
 
-export ATUIN_CONFIG_DIR="$CONFIG_HOME/atuin"
+# export ATUIN_CONFIG_DIR="$CONFIG_HOME/atuin"
 
-eval "$(atuin init --disable-up-arrow bash)"
+# eval "$(atuin init --disable-up-arrow bash)"
 
 ################################################################################
 #                        Starship [https://starship.rs]                        #
