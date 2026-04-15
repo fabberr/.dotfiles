@@ -27,6 +27,7 @@ export CONFIG_HOME="$HOME/.config"
 export DOTNET_CLI_TELEMETRY_OPTOUT="true"
 export DOTNET_ROOT="/usr/share/dotnet"
 export PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
+export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:$SSL_CERT_DIR"
 
 ################################################################################
 #                           Zig [https://ziglang.org]                          #
