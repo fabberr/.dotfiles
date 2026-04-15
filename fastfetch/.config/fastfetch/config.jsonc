@@ -109,7 +109,8 @@
       "type": "keyboard",
       "format": "",
       "ignores": [
-        "AT"
+        "AT",
+        "Logitech"
       ]
     },
     {
