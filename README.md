@@ -70,6 +70,7 @@ The following packages are available. For more details, check each package's cor
 - [ghostty](https://github.com/fabberr/.dotfiles/tree/master/ghostty)
 - [git](https://github.com/fabberr/.dotfiles/tree/master/git)
 - [nvim](https://github.com/fabberr/.dotfiles/tree/master/nvim)
+- [qbittorrent](https://github.com/fabberr/.dotfiles/tree/master/qbittorrent)
 - [ripgrep](https://github.com/fabberr/.dotfiles/tree/master/ripgrep)
 - [spotify-player](https://github.com/fabberr/.dotfiles/tree/master/spotify-player)
 - [starship](https://github.com/fabberr/.dotfiles/tree/master/starship)
