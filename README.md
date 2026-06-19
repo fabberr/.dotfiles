@@ -62,6 +62,7 @@ The following packages are available. For more details, check each package's cor
 - [bash-preexec](https://github.com/fabberr/.dotfiles/tree/master/bash-preexec)
 - [bash](https://github.com/fabberr/.dotfiles/tree/master/bash)
 - [bat](https://github.com/fabberr/.dotfiles/tree/master/bat)
+- [btop](https://github.com/fabberr/.dotfiles/tree/master/btop)
 - [delta](https://github.com/fabberr/.dotfiles/tree/master/delta)
 - [dust](https://github.com/fabberr/.dotfiles/tree/master/dust)
 - [fastfetch](https://github.com/fabberr/.dotfiles/tree/master/fastfetch)
