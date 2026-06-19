@@ -19,6 +19,7 @@ export SSL_CERT_DIR="/etc/ssl/certs"
 
 # Environment Variables
 export CONFIG_HOME="$HOME/.config"
+export $XDG_CONFIG_HOME="$CONFIG_HOME"
 
 ################################################################################
 #                      .NET [https://dotnet.microsoft.com]                     #
