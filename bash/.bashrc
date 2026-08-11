@@ -21,6 +21,9 @@ export SSL_CERT_DIR="/etc/ssl/certs"
 export CONFIG_HOME="$HOME/.config"
 export XDG_CONFIG_HOME="$CONFIG_HOME"
 
+# PATH
+export PATH="/home/fab/Code/scripts/bash:$PATH"
+
 ################################################################################
 #                      .NET [https://dotnet.microsoft.com]                     #
 ################################################################################
