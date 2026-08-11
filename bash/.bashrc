@@ -17,12 +17,14 @@ export GPG_TTY="$(tty)"
 # OpenSSL
 export SSL_CERT_DIR="/etc/ssl/certs"
 
-# Environment Variables
+# Other Variables
 export CONFIG_HOME="$HOME/.config"
 export XDG_CONFIG_HOME="$CONFIG_HOME"
 
+export SCRIPTS_HOME="$HOME/Code/scripts"
+
 # PATH
-export PATH="/home/fab/Code/scripts/bash:$PATH"
+export PATH="$SCRIPTS_HOME/bash:$PATH"
 
 ################################################################################
 #                      .NET [https://dotnet.microsoft.com]                     #
