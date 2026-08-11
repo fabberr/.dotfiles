@@ -30,20 +30,20 @@ export PATH="/home/fab/Code/scripts/bash:$PATH"
 
 export DOTNET_CLI_TELEMETRY_OPTOUT="true"
 export DOTNET_ROOT="/usr/share/dotnet"
-export PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
+export PATH="$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH"
 export SSL_CERT_DIR="$HOME/.aspnet/dev-certs/trust:$SSL_CERT_DIR"
 
 ################################################################################
 #                           Zig [https://ziglang.org]                          #
 ################################################################################
 
-export PATH="$PATH:$ZIG_ROOT:/usr/bin/zig:/usr/bin/zls"
+export PATH="$ZIG_ROOT:/usr/bin/zig:/usr/bin/zls:$PATH"
 
 ################################################################################
 #                             Zed [https://zed.dev]                            #
 ################################################################################
 
-export PATH=$HOME/.local/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
 
 ################################################################################
 #                ripgrep [https://github.com/BurntSushi/ripgrep]               #
