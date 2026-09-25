@@ -73,28 +73,6 @@ export BAT_CONFIG_PATH="$CONFIG_HOME/bat/config"
 MANGOHUD="1"
 
 ################################################################################
-#                       Yazi [https://yazi-rs.github.io]                       #
-################################################################################
-
-#
-# Function: y
-#
-#   Wrapper function for the `yazi` command.
-#   When invoked through this wrapper, Yazi will change the CWD when exiting.
-#
-function y() {
-  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-
-  yazi "$@" --cwd-file="$tmp"
-  
-  if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-    builtin cd -- "$cwd"
-  fi
-
-  rm -f -- "$tmp"
-}
-
-################################################################################
 #            bash-preexec [https://github.com/rcaloras/bash-preexec]           #
 ################################################################################
 
