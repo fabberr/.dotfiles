@@ -13,14 +13,14 @@
 
 #-- File Editor
 # Default: $EDITOR
-editor = ""
+editor = "code"
 
 #-- Directory Editor
 # 
-dir_editor = ""
+dir_editor = "dolphin"
 
 #-- Auto check for update
-auto_check_update = true
+auto_check_update = false
 
 #-- cd on quit
 # Should we cd the shell to the last directory open in superfile when the
@@ -54,7 +54,7 @@ file_size_use_si = false
 #-- Default File Sort Type
 # (0: Name, 1: Size, 2: Date Modified, 3: Type, 4: Natural).
 # Natural sort treats numeric sequences as numbers (e.g., file2 before file10).
-default_sort_type = 0
+default_sort_type = 4
 
 #-- Sort Order Reversing
 # true: Descending.
@@ -99,7 +99,7 @@ theme = "catppuccin-mocha"
 
 #-- Code Previewer
 # Whether to use the builtin syntax highlighting with chroma or use bat. Values: "" for builtin chroma, "bat" for bat
-code_previewer = ""
+code_previewer = "bat"
 
 #-- Nerd Fonts Support
 # Whether to enable support for Nerd Fonts symbols.
@@ -113,7 +113,7 @@ show_select_icons = true
 #-- Transparent Background Support
 # Set to true to enable background transparency.
 # Requires: terminal support for colour transparency
-transparent_background = false
+transparent_background = true
 
 #-- File Preview Panel Width
 # Width of the file preview panel will be 1/n of the total width.
@@ -124,7 +124,7 @@ file_preview_width = 0
 #-- File Preview Border
 # Enable border around the file preview panel for better visual separation.
 # Default: false (no border)
-enable_file_preview_border = false
+enable_file_preview_border = true
 
 #-- Sidebar Width
 # If you don't want to display the sidebar, you can input 0 directly.
@@ -134,7 +134,7 @@ sidebar_width = 20
 #-- Sidebar Section Order
 # Order of sidebar sections (valid values: "home", "pinned", "disks")
 # Only enabled sections will be displayed
-sidebar_sections = ["home", "pinned", "disks"]
+sidebar_sections = ["home", "pinned"]
 
 #-- Border
 # Make sure to add strings that are exactly one character wide!
@@ -160,12 +160,12 @@ border_middle_right = '┤'
 
 #-- Detailed Metadata
 # Requires: exiftool
-metadata = false
+metadata = true
 
 #-- MD5 Checksum Generation
 # Requires: md5sum
 enable_md5_checksum = false
-#
+
 #-- Zoxide Support - Smart directory navigation!
 # Requires: zoxide
 zoxide_support = false
