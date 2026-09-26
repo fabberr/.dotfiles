@@ -76,6 +76,7 @@ The following packages are available. For more details, check each package's cor
 - [spotify-player](https://github.com/fabberr/.dotfiles/tree/master/spotify-player)
 - [starship](https://github.com/fabberr/.dotfiles/tree/master/starship)
 - [stow](https://github.com/fabberr/.dotfiles/tree/master/stow)
+- [superfile](https://github.com/fabberr/.dotfiles/tree/master/superfile)
 - [yazi](https://github.com/fabberr/.dotfiles/tree/master/yazi)
 
 ## Stow Cheat Sheet
