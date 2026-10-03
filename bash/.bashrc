@@ -98,15 +98,6 @@ spf() {
 MANGOHUD="1"
 
 ################################################################################
-#            bash-preexec [https://github.com/rcaloras/bash-preexec]           #
-################################################################################
-
-# Enable experimental subshell support
-export __bp_enable_subshells="true"
-
-[[ -f "$HOME/.bash-preexec.sh" ]] && source "$HOME/.bash-preexec.sh"
-
-################################################################################
 #                           Atuin [https://atuin.sh]                           #
 ################################################################################
 
