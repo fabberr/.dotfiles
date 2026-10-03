@@ -71,7 +71,6 @@ The following packages are available. For more details, check each package's cor
 - [nvim](https://github.com/fabberr/.dotfiles/tree/master/nvim)
 - [qbittorrent](https://github.com/fabberr/.dotfiles/tree/master/qbittorrent)
 - [ripgrep](https://github.com/fabberr/.dotfiles/tree/master/ripgrep)
-- [spotify-player](https://github.com/fabberr/.dotfiles/tree/master/spotify-player)
 - [starship](https://github.com/fabberr/.dotfiles/tree/master/starship)
 - [stow](https://github.com/fabberr/.dotfiles/tree/master/stow)
 - [superfile](https://github.com/fabberr/.dotfiles/tree/master/superfile)
