@@ -127,10 +127,3 @@ stow -D <pkgname>
 [Using GNU Stow to manage your dotfiles](https://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html) by [Brandon Invergo](http://brandon.invergo.net/index.html).
 
 [GNU Stow manual](https://www.gnu.org/software/stow/manual/) by the [GNU Project](https://www.gnu.org).
-
-## TODO
-- [ ] Add `vscode` package
-  - Settings
-  - Extensions (?)
-- [ ] Setup shell script
-- [ ] Add `bash-preexec` as a Git Submodule. Setup a Local Ignore List for it.
