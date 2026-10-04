@@ -39,7 +39,7 @@
     },
     {
       "type": "cpu",
-      "format": "{name} ({cores-physical}|{cores-logical}) @ {freq-max}"
+      "format": "[{march}] {name} ({cores-physical}|{cores-logical}) @ {freq-max}"
     },
     {
       "type": "memory",
@@ -90,14 +90,17 @@
     /* Desktop */
     {
       "type": "lm",
+      "key": "LM",
       "format": ""
     },
     {
       "type": "de",
+      "key": "DE",
       "format": ""
     },
     {
       "type": "wm",
+      "key": "WM",
       "format": ""
     },
     {
@@ -133,7 +136,7 @@
     {
       "type": "display",
       "key": "Display {index}",
-      "format": "{width}x{height} {inch}\", {refresh-rate} Hz ({name}) [{type}]"
+      "format": "[{type}: {name}] {width}x{height} {inch}\" @ {refresh-rate} Hz"
     },
     {
       "type": "separator",
@@ -142,7 +145,7 @@
     /* Graphics */
     {
       "type": "gpu",
-      "format": "{vendor} {name} [{type}]"
+      "format": "[{type}] {vendor} {name}"
     },
     {
       "type": "vulkan",
