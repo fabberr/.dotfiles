@@ -12,7 +12,7 @@ Make sure the following tools are installed on your system and available for you
 ### On Arch Linux <sup>(btw)</sup>
 
 ```shell
-sudo pacman -Sy --needed git stow
+sudo pacman -S --needed git stow
 ```
 
 ### On Ubuntu
@@ -53,32 +53,6 @@ I also recommended to stow the [`git`](https://github.com/fabberr/.dotfiles/tree
 stow stow
 stow git
 ```
-
-## Available Packages
-
-The following packages are available. For more details, check each package's corresponding `README.md` file.
-
-- [bash](https://github.com/fabberr/.dotfiles/tree/master/bash)
-- [bat](https://github.com/fabberr/.dotfiles/tree/master/bat)
-- [btop](https://github.com/fabberr/.dotfiles/tree/master/btop)
-- [delta](https://github.com/fabberr/.dotfiles/tree/master/delta)
-- [dotnet](https://github.com/fabberr/.dotfiles/tree/master/dotnet)
-- [dust](https://github.com/fabberr/.dotfiles/tree/master/dust)
-- [eza](https://github.com/fabberr/.dotfiles/tree/master/eza)
-- [fastfetch](https://github.com/fabberr/.dotfiles/tree/master/fastfetch)
-- [fd](https://github.com/fabberr/.dotfiles/tree/master/fd)
-- [gamemode](https://github.com/fabberr/.dotfiles/tree/master/gamemode)
-- [ghostty](https://github.com/fabberr/.dotfiles/tree/master/ghostty)
-- [git](https://github.com/fabberr/.dotfiles/tree/master/git)
-- [nvim](https://github.com/fabberr/.dotfiles/tree/master/nvim)
-- [qbittorrent](https://github.com/fabberr/.dotfiles/tree/master/qbittorrent)
-- [ripgrep](https://github.com/fabberr/.dotfiles/tree/master/ripgrep)
-- [starship](https://github.com/fabberr/.dotfiles/tree/master/starship)
-- [stow](https://github.com/fabberr/.dotfiles/tree/master/stow)
-- [superfile](https://github.com/fabberr/.dotfiles/tree/master/superfile)
-- [zed](https://github.com/fabberr/.dotfiles/tree/master/zed)
-- [zig](https://github.com/fabberr/.dotfiles/tree/master/zig)
-- [zoxide](https://github.com/fabberr/.dotfiles/tree/master/zoxide)
 
 ## Stow Cheat Sheet
 
