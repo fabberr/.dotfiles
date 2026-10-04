@@ -1,10 +1,10 @@
 # .dotfiles
 
-Personal configuration files for applications and tools, managed with [GNU Stow](https://www.gnu.org/software/stow/).
+Personal configuration files for applications and tools, managed with [GNU Stow](https://www.gnu.org/software/stow/) + [Git](https://git-scm.com) versioning.
 
 ## Dependencies
 
-Make sure the following tools are installed and available to your user:
+Make sure the following tools are installed and available:
 
 - [Git](https://git-scm.com/)
 - [GNU Stow](https://www.gnu.org/software/stow/)
@@ -18,7 +18,7 @@ sudo pacman -S --needed git stow
 ### Ubuntu
 
 ```shell
-sudo apt update && sudo apt install git stow
+sudo apt install git stow
 ```
 
 ### Other distributions / operating systems
@@ -27,7 +27,7 @@ Check your system's package repositories for installation instructions.
 
 ## Setup
 
-Clone the repository into your home directory:
+Clone this repository into your home directory:
 
 ```shell
 cd ~
@@ -45,9 +45,9 @@ Then enter the repository, which contain several Stow [packages](https://www.gnu
 cd "~/.dotfiles"
 ```
 
-⚠️ **The [`stow`](https://github.com/fabberr/.dotfiles/tree/master/stow) package should always be installed first on a fresh system**. It provides the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists), which **prevents unwanted files from being symlinked when installing other packages**.
+⚠️ **Important:** The [`stow`](https://github.com/fabberr/.dotfiles/tree/master/stow) package **should always be installed first** on a fresh system. It provides the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists), which **prevents unwanted files from being symlinked when installing other packages**.
 
-The [`git`](https://github.com/fabberr/.dotfiles/tree/master/git) package is also recommended early in the setup.
+The [`git`](https://github.com/fabberr/.dotfiles/tree/master/git) package should also be installed early in the setup to enable the versioning process.
 
 ```shell
 stow stow
