@@ -42,7 +42,7 @@ git clone https://github.com/fabberr/.dotfiles.git
 Then enter the repository, which contain several Stow [packages](https://www.gnu.org/software/stow/manual/stow.html#Terminology).
 
 ```shell
-cd "~/.dotfiles"
+cd ~/.dotfiles
 ```
 
 ⚠️ **Important:** The [`stow`](https://github.com/fabberr/.dotfiles/tree/master/stow) package **should always be installed first** on a fresh system. It provides the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists), which **prevents unwanted files from being symlinked when installing other packages**.
@@ -65,19 +65,19 @@ The following commands assume that:
 
 
 ```shell
-mkdir <pkgname>
+mkdir '<pkgname>'
 
 # Optional: create the required directory structure.
-mkdir -p <pkgname>/additional/nested/directories
+mkdir -p '<pkgname>/additional/nested/directories'
 
 # Optional: move existing configuration into the package.
-mv <configroot> <pkgname>
+mv '<configroot>' '<pkgname>'
 ```
 
 ### Installing a package
 
 ```shell
-stow <pkgname>
+stow '<pkgname>'
 ```
 
 This uses Stow's default `-S/--stow` action.
@@ -85,7 +85,7 @@ This uses Stow's default `-S/--stow` action.
 ### Uninstalling a package
 
 ```shell
-stow -D <pkgname>
+stow -D '<pkgname>'
 ```
 
 ## Shell Configurations
