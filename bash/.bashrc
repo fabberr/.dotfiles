@@ -1,10 +1,8 @@
 # If not running interactively, don't do anything.
 [[ $- != *i* ]] && return
 
-############################### Bash Environment ###############################
-
-# These variables aren't officially supported by Bash, and thus won't change its
-# behavior in any way. Instead, they are provided simply as convenience for
+# The following  variables aren't officially supported by Bash, and thus won't
+# change its behavior in any way. Instead, they are provided as convenience for
 # other scripts/functions in this environment.
 
 export __BASH_CONFIG_HOME="$HOME/.config/bash"
