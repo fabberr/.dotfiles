@@ -62,7 +62,9 @@ The following packages are available. For more details, check each package's cor
 - [bat](https://github.com/fabberr/.dotfiles/tree/master/bat)
 - [btop](https://github.com/fabberr/.dotfiles/tree/master/btop)
 - [delta](https://github.com/fabberr/.dotfiles/tree/master/delta)
+- [dotnet](https://github.com/fabberr/.dotfiles/tree/master/dotnet)
 - [dust](https://github.com/fabberr/.dotfiles/tree/master/dust)
+- [eza](https://github.com/fabberr/.dotfiles/tree/master/eza)
 - [fastfetch](https://github.com/fabberr/.dotfiles/tree/master/fastfetch)
 - [fd](https://github.com/fabberr/.dotfiles/tree/master/fd)
 - [gamemode](https://github.com/fabberr/.dotfiles/tree/master/gamemode)
@@ -74,7 +76,9 @@ The following packages are available. For more details, check each package's cor
 - [starship](https://github.com/fabberr/.dotfiles/tree/master/starship)
 - [stow](https://github.com/fabberr/.dotfiles/tree/master/stow)
 - [superfile](https://github.com/fabberr/.dotfiles/tree/master/superfile)
-- [yazi](https://github.com/fabberr/.dotfiles/tree/master/yazi)
+- [zed](https://github.com/fabberr/.dotfiles/tree/master/zed)
+- [zig](https://github.com/fabberr/.dotfiles/tree/master/zig)
+- [zoxide](https://github.com/fabberr/.dotfiles/tree/master/zoxide)
 
 ## Stow Cheat Sheet
 
