@@ -105,8 +105,8 @@ A shell configuration package should provide, **at least**, the following struct
 <shell package>/ # Stow package root
 └── .config/
     └── <shell>/
-        ├── modules/          # Installed application-specific shell configurations store.
-        └── .modules_manifest # Known modules available for this shell with explicit load order.
+        ├── modules/          # Application-specific shell configurations store.
+        └── .modules_manifest # Known modules for this shell with explicit load order.
 ```
 
 In addition to the above, a shell package should also provide its own configuration, ranging:
