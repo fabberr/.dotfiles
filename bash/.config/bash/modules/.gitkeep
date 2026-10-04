@@ -1,0 +1,10 @@
+# Base directory for shell configuration modules providade by other Stow
+# configuration packages.
+#
+# Typical additions includes application-specific:
+# - Modifications to the `$PATH`.
+# - Environment variables.
+# - Shell integrations.
+# - Shell functions.
+# - Shell aliases.
+#

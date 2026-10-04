@@ -6,4 +6,3 @@ set expandtab       " Convert tabs to spaces
 " Configure line numbers
 set number
 set relativenumber
-
