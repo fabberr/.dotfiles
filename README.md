@@ -1,36 +1,36 @@
 # .dotfiles
 
-This repository stores my personal configuration files for applications and tools that I use, and it's meant to be used alongside [GNU Stow](https://www.gnu.org/software/stow/) for ease of reproducibility.
+Personal configuration files for applications and tools, managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
 ## Dependencies
 
-Make sure the following tools are installed on your system and available for your user:
+Make sure the following tools are installed and available to your user:
 
 - [Git](https://git-scm.com/)
 - [GNU Stow](https://www.gnu.org/software/stow/)
 
-### On Arch Linux <sup>(btw)</sup>
+### Arch Linux <sup>(btw)</sup>
 
 ```shell
 sudo pacman -S --needed git stow
 ```
 
-### On Ubuntu
+### Ubuntu
 
 ```shell
 sudo apt update && sudo apt install git stow
 ```
 
-### On Other distributions/Operating Systems
+### Other distributions / operating systems
 
-Check the official package repositories for installation instructions.
+Check your system's package repositories for installation instructions.
 
 ## Setup
 
-First, clone this repository locally on your machine using Git. For ease of use, prefer cloning the repo directly onto your home directory.
+Clone the repository into your home directory:
 
 ```shell
-cd $HOME
+cd ~
 
 # Clone via SSH (recommended)
 git clone git@github.com:fabberr/.dotfiles.git
@@ -39,15 +39,15 @@ git clone git@github.com:fabberr/.dotfiles.git
 git clone https://github.com/fabberr/.dotfiles.git
 ```
 
-Once cloned, you can navigate into the repo and start using Stow to install configuration [packages](https://www.gnu.org/software/stow/manual/stow.html#Terminology). For a full list of packages available on this repo, see the **[Available Packages](#available-packages)** section below.
+Then enter the repository, which contain several Stow [packages](https://www.gnu.org/software/stow/manual/stow.html#Terminology).
 
 ```shell
-cd $HOME/.dotfiles
+cd "~/.dotfiles"
 ```
 
-⚠️ **Always ensure the [`stow`](https://github.com/fabberr/.dotfiles/tree/master/stow) package is the first to be stowed on fresh installs** to avoid issues with unwanted files being symlinked to the target directory when the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists) is not present while stowing other packages.
+⚠️ **The [`stow`](https://github.com/fabberr/.dotfiles/tree/master/stow) package should always be installed first on a fresh system**. It provides the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists), which **prevents unwanted files from being symlinked when installing other packages**.
 
-I also recommended to stow the [`git`](https://github.com/fabberr/.dotfiles/tree/master/git) package next.
+The [`git`](https://github.com/fabberr/.dotfiles/tree/master/git) package is also recommended early in the setup.
 
 ```shell
 stow stow
@@ -57,38 +57,32 @@ stow git
 ## Stow Cheat Sheet
 
 The following commands assume that:
-1. The Stow directory is located within your home directory (i.e. The directory where you cloned this repo into is a subdirectory of `$HOME`);
-2. The current working directory is the Stow directory (i.e. `$HOME/.dotfiles`).
+
+1. This repository was cloned directly under your home directory.
+2. Your current working directory is the repository root (i.e. `~/.dotfiles`).
 
 ### Creating a package
 
-These commands will create a new Stow package named `<pkgname>` from an existing configuration present in the `<configroot>` directory.
 
 ```shell
-# Create the package directory.
 mkdir <pkgname>
 
-# Optional:
-# Add any required subdirectories, typically `.config/<pkgname>`
-# or `.local/share/<pkgname>` (i.e. `.config/ghostty`).
+# Optional: create the required directory structure.
 mkdir -p <pkgname>/additional/nested/directories
 
-# Optional:
-# Move any existing configuration directories/files into the new package
-mv <configroot> <pgkname>
+# Optional: move existing configuration into the package.
+mv <configroot> <pkgname>
 ```
 
 ### Installing a package
-
-To install a package, simply run the `stow` command (default `-S/--stow` action), passing the name of the package. This creates all the necessary symbolic links to install the specified package into the target directory.
 
 ```shell
 stow <pkgname>
 ```
 
-### Uninstalling a package
+This uses Stow's default `-S/--stow` action.
 
-Similarly, to uninstall a package, run the `stow` command with the `-D/--delete` flag. This will remove any symbolic links that Stow has previously created for the specified package from the target directory.
+### Uninstalling a package
 
 ```shell
 stow -D <pkgname>
