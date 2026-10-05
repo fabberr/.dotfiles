@@ -47,7 +47,7 @@ cd ~/.dotfiles
 
 ⚠️ **Important:** The [`stow`](https://github.com/fabberr/.dotfiles/tree/master/stow) package **should always be installed first** on a fresh system. It provides the [Global Ignore List](https://www.gnu.org/software/stow/manual/stow.html#Types-And-Syntax-Of-Ignore-Lists), which **prevents unwanted files from being symlinked when installing other packages**.
 
-The [`git`](https://github.com/fabberr/.dotfiles/tree/master/git) package should also be installed early in the setup to enable the versioning process.
+The [`git`](https://github.com/fabberr/.dotfiles/tree/master/git) package should also be installed early in the setup to enable the versioning workflow.
 
 ```shell
 stow stow
