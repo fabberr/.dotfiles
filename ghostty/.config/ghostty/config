@@ -10,8 +10,8 @@ background-opacity = 0.85
 background-opacity-cells = true
 background-blur = true
 
-# window-height = 35
-# window-width = 125
+window-height = 35
+window-width = 125
 
 window-decoration = server
 # window-decoration = none
